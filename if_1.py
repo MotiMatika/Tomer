@@ -11,19 +11,18 @@ x=random.randint(1,100)
 
 
 
-#לתומר
-import random as rd
-a=rd.randint(1,100)
-b=rd.randint(1,100)
-print("היי קוראים לי שחר")
+#מהו המספר הגדול ביותר מבין שניים
+import random
+a=random.randint(1,100)
+b=random.randint(1,100)
 print(a,b)
-c=int(input("\nwhich number is the biggest ? "))
+c=int(input("\n? רתויב לודגה רפסמה "))
 if c==a or c==b: 
     if c>a or c>b:
-        print("\nןוכנ\n")
+        print("\nדאמ הפי\n")
     else:
         print("\nןוכנ אל \n")
 else:
-    print("\nעיפומ אל\n")
+    print("\nבוט האור אל התא\n")
 
  
