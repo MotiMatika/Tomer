@@ -17,13 +17,12 @@ x=random.randint(1,100)
 # b=random.randint(1,100)
 # print(a,b)
 # qu=int(input("\n? רתויב לודגה רפסמה "))
-# if qu==a or qu==b: 
-#     if qu>a or qu>b:
-#         print("\nדאמ הפי\n")
-#     else:
-#         print("\nןוכנ אל \n")
+
+# if qu>a or qu>b:
+#    print("\nדאמ הפי\n")
 # else:
-#     print("\nבוט האור אל התא\n")
+#     print("\nןוכנ אל \n")
+
 
 
 #מהו המספר הגדול ביותר מבין שניים
@@ -33,12 +32,11 @@ b=random.randint(1,100)
 c=random.randint(1,100)
 print(a,b,c)
 qu=int(input("\n? רתויב לודגה רפסמה "))
-if qu==a or qu==b qu==c: 
-    if qu>a or qu>b :
-        print("\nדאמ הפי\n")
-    else:
-        print("\nןוכנ אל \n")
+
+if qu>a or qu>b or qu>c:
+    print("\nדאמ הפי\n")
 else:
-    print("\nבוט האור אל התא\n")
+    print("\nןוכנ אל \n")
+
 
  
