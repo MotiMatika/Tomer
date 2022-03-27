@@ -22,3 +22,5 @@ def out_of_three(a,b,c):
     # out_of_three(2,4,1)
 
 out_of_three(a,b,c)
+
+
