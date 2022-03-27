@@ -1,11 +1,9 @@
-
-
+import random
+a=random.randint(1,100)
+b=random.randint(1,100)
+c=random.randint(1,100)
 #מהו המספר הגדול ביותר מבין שלשה
 def out_of_three(a,b,c):
-    # import random
-    # a=random.randint(1,100)
-    # b=random.randint(1,100)
-    # c=random.randint(1,100)
     print("\n",a,",",b,",",c)
     qu=int(input("\n? רתויב לודגה רפסמה "))
 
@@ -23,4 +21,4 @@ def out_of_three(a,b,c):
         print("\nהעוט התא")
     # out_of_three(2,4,1)
 
-out_of_three(2,4,1)
+out_of_three(a,b,c)
