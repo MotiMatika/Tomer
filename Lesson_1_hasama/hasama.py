@@ -34,6 +34,16 @@ print("your age in months : ",months)
 #פעילויות נוספות: להמיר לשבועות,ימים,דקות,שניות
 
 
+#משתמש מכניס מספר ופלט : שמו נכתב מספר הפעמים שהכניס
+times = int(input("\ntype a number you your name to be print: "))
+name = input("\ntype your name : ")
+print(times*name)
+
+
+
+
+
+
 
 # briks=input("enter 3 digits - each for one pig "  )      #הכנסת מספר תלת ספרתי
 # pig1=int(int(briks)/100)                                 #הפרדת ספרת המאות שמציינת את מספר הלבנים שאסף חזיר ראשון
