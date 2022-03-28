@@ -4,7 +4,8 @@ if temp <=15:
 else:
     print("יל םח")   
 
-#להעביר למקבץ איף ולהבין מה ההבדל בין 2 הגירסאות
+#להבין מה ההבדל בין 2 הגירסאות
+#גירסא 1
 # x=1
 # if x>4:
 #     print("x>4")
@@ -12,7 +13,6 @@ else:
 #     print("x=3")
 # else:
 #     print("x<3")
-
 
 # num = int(input("enter a number : "))
 # if num>4:
