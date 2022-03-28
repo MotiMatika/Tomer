@@ -38,9 +38,10 @@
 
 
 #משתמש מכניס מספר ופלט : שמו נכתב מספר הפעמים שהכניס
-times = int(input("\ntype a number you your name to be print: "))
+times = int(input("\ntype a number you want your name to be printed: "))
 name = input("\ntype your name : ")
 print(times*name)
+
 
 
 
