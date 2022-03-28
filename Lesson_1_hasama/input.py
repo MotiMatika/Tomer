@@ -1,3 +1,9 @@
+name = input("your name    : " )
+print("your name is :",name)
+
+
+
+
 #המשתמש מקליד את גילו בשנים ומקבל את גילו בחודשים
 # years = int(input("\ntype your age in years: "))
 # months = years*36
