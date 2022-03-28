@@ -1,3 +1,19 @@
+#      @@@   פעילות 2  @@@
+# פיצול מספר תלת ספרתי לספרותיו
+# num = int(input("\nףלאל רשע ןיב רפסמ סנכה "))
+# meot = int(num/100)
+# print("תואמה תרפס  ",meot)
+# asarot = int((num-meot*100)/10)
+# print("תורשעה תרפס ",asarot)
+# ahadot = int(num-100*meot-10*asarot)
+# print("תודחאה תרפס ",ahadot)
+
+
+
+
+
+
+
 briks=input("\nenter 3 digits - each for one pig "  )      #הכנסת מספר תלת ספרתי
 pig1=int(int(briks)/100)                                 #הפרדת ספרת המאות שמציינת את מספר הלבנים שאסף חזיר ראשון
 pig2=int((int(briks)/10-pig1*10))                        #הפרדת ספרת העשרות שמציינת את מספר הלבנים שאסף חזיר שני
