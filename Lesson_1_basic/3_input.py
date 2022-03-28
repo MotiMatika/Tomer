@@ -1,7 +1,15 @@
 # name = input("your name    : " )
 # print("your name is :",name)
 
+# x = input ("please type the number you want: ")
+# print("you typed : ",x)
 
+# a = int(input("how many stars do you want? : "))
+# print("*"*a)
+
+# a = int(input("no.1 = "))
+# b = int(input("no.2 = "))
+# print("a-b =",a-b)
 
 
 #המשתמש מקליד את גילו בשנים ומקבל את גילו בחודשים
