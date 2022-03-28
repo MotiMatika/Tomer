@@ -25,12 +25,15 @@
 # print(2+3)
 # print("2+3 = ",5)
 
+# i=1
+# i=i+1
+# print(i)
+
 
 #המשתמש מקליד את גילו בשנים ומקבל את גילו בחודשים
-years = int(input("\ntype your age in years: "))
-months = years*36
-print("your age in months : ",months)
-
+# years = int(input("\ntype your age in years: "))
+# months = years*36
+# print("your age in months : ",months)
 #פעילויות נוספות: להמיר לשבועות,ימים,דקות,שניות
 
 

@@ -1,8 +1,8 @@
-temp = int(input("\n?הרוטרפמטה יהמ "))
-if temp <=15:
-    print(" יל רק ...ררב")
-else:
-    print("יל םח")   
+# temp = int(input("\n?הרוטרפמטה יהמ "))
+# if temp <=15:
+#     print(" יל רק ...ררב")
+# else:
+#     print("יל םח")   
 
 #להבין מה ההבדל בין 2 הגירסאות
 #גירסא 1
@@ -24,16 +24,16 @@ else:
 #     print("number < 3")
 
 
-# letter = input("enter a letter : ")
-# if letter=="t":
-#     print("you are tomer")
-# elif letter=="u":
-#     print("you are uri")
-# elif letter=="h":
-#     print("you are hilla")
-# elif letter=="m":
-#     print("you are moti")
-# elif letter=="d":
-#     print("you are dudi")
-# else:
-#     print("you are no one") 
+letter = input("ךמש לש הנושאר תואה תא סנכה : ")
+if letter=="ת":
+    print("רמות התא")
+elif letter=="א":
+    print("ירוא התא")
+elif letter=="ה":
+    print("הליה תא")
+elif letter=="מ":
+    print("יטומ התא")
+elif letter=="ד":
+    print("ידוד התא")
+else:
+    print("ךתוא ריכמ אל") 
