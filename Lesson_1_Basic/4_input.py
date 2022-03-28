@@ -12,6 +12,48 @@
 # print("a-b =",a-b)
 
 
+
+
+# x=input("please type a number ")
+# print(x)
+# X=input("What is your name - ")
+# print(X)
+
+# x = int(input("How many stars do you want ? "))
+# print(x*"*")
+
+# x=input("type a number :")
+# y=input("type a number :")
+# sum=x+y
+# print(sum)
+
+
+# x=int(input("type a number : "))
+# y=int(input("type a number : "))
+# sum=x+y
+# print("The sum is    :",sum)
+
+# x=int(input("type a number : "))
+# y=int(input("type a number : "))
+# sum=x+y
+# print("The sum is    :",sum)
+
+
+
+print("\n")
+x=int(input("type a number    : "))
+y=int(input("type a number    : "))
+print("The sum is       :",x+y)
+print("The difference is:",x-y)
+print("The double is    :",x*y)
+print("The divition     :",x/y)
+print("The power is    :",x**y)
+print("\n")
+
+
+
+
+
 #המשתמש מקליד את גילו בשנים ומקבל את גילו בחודשים
 # years = int(input("\ntype your age in years: "))
 # months = years*36
