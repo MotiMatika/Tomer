@@ -9,7 +9,11 @@
 # print("תודחאה תרפס ",ahadot)
 
 
-
+three_digits = int(input("\nenter a number of 3 digits "))
+meot   = int(three_digits/100)
+asarot = int((three_digits-meot*100)/10)
+ahadot = three_digits-(meot*100+asarot*10)
+print("Meot   digit = ",meot,"\nAsarot digit = ",asarot,"\nAhadot digit = ",ahadot)
 
 
 
