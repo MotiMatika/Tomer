@@ -97,4 +97,25 @@ def sr(a,b,c):                                    #הגדרת פונקציה ע�
 		print("a=",a,"  b=",b,"  c=",c)           #פלט -דיווח על המקדמים
 		print("The Roots are:",x1,x2)             #פלט -דיווח על השורשים
 	
-sr(1,0,6)                                         #קריאה לפונקציה והשמת ערכים
+sr(1,0,6) 
+
+
+def print123():
+    print("1")
+    print("2")
+    print("3")
+print(print123())
+
+# מדפיס אותי
+# def printMe():
+#     print("Me!")
+
+
+# def printCalculation(a,b):
+#     c = a+b
+#     print(c +3)
+#     return c
+
+
+# result = printCalculation(4,5)
+# print("The result is: ", result)                                        #קריאה לפונקציה והשמת ערכים
