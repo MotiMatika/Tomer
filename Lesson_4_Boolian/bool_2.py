@@ -88,11 +88,7 @@ print (int(c))
 	
 
 
-#a = True+1                #ל'אמת' יש ערך של  1
-#print(a)                #פלט - 2
 
-#a = False+1               #ל'שקר' יש ערך של 0
-#print(a)                #פלט - 1
 
                     #שימוש בפקודה איז-גירסא ארוכה
 #x = True       #השמת ערך בוליאני לתא איקס
@@ -105,3 +101,44 @@ print (int(c))
 #if x:           #תנאי-האם איקס הוא 'אמת
 #	print (x)    #פלט-טרו
 
+
+#                                       התכניות הבאות משלבות אמת/שקר
+#friend_is_free = False              #חבר בבית=שקר
+#mother_is_home = True               #אמא בבית=אמת
+#if friend_is_free:                  #אם חבר בבית זו אמת(ברירת מחדל)      
+#	print("going to the movies")    #פלט-הולכים לסרט               
+#elif mother_is_home:                #אחרת-אם אמא בבית זה אמת (ברירת מחדל)     
+#	print("eating an apple pie")    #פלט -אוכלים פאי       
+#else:                               #אחרת         
+#	print("watching tv")            #צופים בטיוי
+                                    #הפלט הוא - אוכלים פאיי         
+	
+#friend_is_free = False              #חבר בבית=שקר
+#mother_is_home = False              #אמא בבית=שקר
+#if friend_is_free:                  #אם חבר בבית זו אמת(ברירת מחדל)
+#	print("going to the movies")    #פלט-הולכים לסרט
+#elif mother_is_home:                #אחרת-אם אמא בבית זה אמת (ברירת מחדל)
+#	print("eating an apple pie")    #פלט -אוכלים פאי
+#else:                               #אחרת
+#	print("watching tv")	        #צופים בטיוי
+                                    #הפלט הוא - צופים טיוי
+
+#friend_is_free = True                #חבר בבית=אמת
+#mother_is_home = False               #אמא בבית=שקר
+#if friend_is_free:                   #אם חבר בבית זו אמת(ברירת מחדל)
+#	print("going to the movies")     #פלט-הולכים לסרט
+#elif mother_is_home:                 #אחרת-אם אמא בבית זה אמת (ברירת מחדל)
+#	print("eating an apple pie")     #פלט -אוכלים פאי 
+#else:                                #אחרת
+#	print("watching tv")             #צופים בטיוי
+									 #הפלט הוא - הולכים לסרט
+									
+#friend_is_free = True                #חבר בבית=אמת
+#mother_is_home = True                #אמא בבית=אמת
+#if friend_is_free:                   #אם חבר בבית זו אמת(ברירת מחדל)
+#	print("going to the movies")     #פלט-הולכים לסרט
+#elif mother_is_home:                 #אחרת-אם אמא בבית זה אמת (ברירת מחדל)
+#	print("eating an apple pie")     #פלט -אוכלים פאי  
+#else:                                #אחרת
+#	print("watching tv")             #צופים בטיוי
+	                                 #הפלט הוא - הולכים לסרט
