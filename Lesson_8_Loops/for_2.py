@@ -76,3 +76,6 @@
 #   print(x)                      #ותדפיס את כולם
 # else:                           #אחרת
 #   print("Finally finished!")    #תדפיס גם את המשפט
+
+
+
