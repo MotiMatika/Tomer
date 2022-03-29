@@ -65,3 +65,30 @@ print("\n")
 # times = int(input("\ntype a number you want your name to be printed: "))
 # name = input("\ntype your name : ")
 # print(times*name)
+
+
+
+
+                               #התכנית מקבלת מספר ומכפילה אותו
+#a=input("enter a number :")                               #המשתמש מקליד מספר
+#print("I double your number",a,"and I get : ", int(a)*2)  #פלט-המספר מוכפל 
+
+                               #התכנית קולטת מספר ומעלה אותו בריבוע
+#a=int(input("enter a number :"))                 #קלט של מספר
+#import math                                      #קריאה למודול מאט 
+#x = math.sqrt(a)                                 #שימוש בפונקציה של העלאה בריבוע
+#print("I sqrt your number",a,"and I got : ", x)  #פלט-המספר מועלה בריבוע
+
+
+                                 #התכנית קולטת 2 מספרים ומכפילה אותם
+#number=float(input("choose a number :"))                                      #המחשב כותב את המשפט והמשתמש מקליד.המספר שיכניס,ייכנס לתאנמבר
+#multiply=float(input("you want to multiply it by :"))                         #המחשב כותב את המשפט והמשתמש מקליד.המספר שיכניס ייכנס למולטיפליי
+#print("the number you chose is :",number)                                     #פלט-המספר שהוקלד
+#print("your number",number,"multiply by", multiply, "is :",number * multiply) #פלט-תוצאת המכפלה
+
+
+                                 #התכנית קולטת 2 מספרים ומחברת אותם
+number1=float(input("choose a number :"))                                      #המחשב כותב את המשפט והמשתמש מקליד.המספר שיכניס,ייכנס לתאנמבר
+number2=float(input("you want to multiply it by :"))                         #המחשב כותב את המשפט והמשתמש מקליד.המספר שיכניס ייכנס למולטיפליי
+print("the number you chose is :",number1)                                     #פלט-המספר שהוקלד
+print("the sum of ",number1,"and", number2, "is :",number1 + number2) #פלט-תוצאת המכפלה

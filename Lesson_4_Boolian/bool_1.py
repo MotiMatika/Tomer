@@ -66,19 +66,23 @@
 #	print (x)    #פלט-טרו
 
 
+#txt = "The best things !"   # בודק אם הרצף נמצא במחרוזת
+#print("i" in txt)           #יחזיר אמת
+
+
 #HW
-print(3 > 4)
-print(3 == 3)
-print(4 != 6)
+# print(3 > 4)
+# print(3 == 3)
+# print(4 != 6)
 
-x = "b" in "bed"
-print(x)
+# x = "b" in "bed"
+# print(x)
 
-x = "dog"
-y = "cat"
-t = x==y
-print(t)
+# x = "dog"
+# y = "cat"
+# t = x==y
+# print(t)
 
-x=True
-y=False
-print(x != y)
+# x=True
+# y=False
+# print(x != y)
