@@ -66,7 +66,9 @@
 # name = input("\ntype your name : ")
 # print(times*name)
 
-
+# txt=input("please enter a word : ")                                  #קלט של מחרוזת
+# count_num = len(txt)                                                 #אורך המחרוזת
+# print("_ " * count_num)
 
 
                                #התכנית מקבלת מספר ומכפילה אותו
