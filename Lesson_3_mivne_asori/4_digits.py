@@ -1,0 +1,6 @@
+four_digits = int(input("\nenter a number of 4 digits "))
+alafim = int(four_digits/1000)
+meot   = int((four_digits-1000*alafim)/100)
+asarot = int((four_digits-(alafim*10+meot)*100)/10)
+ahadot = int((four_digits-(alafim*100+meot*10+asarot)*10))
+print("\nAlafim digit = ",alafim,"\nMeot   digit = ",meot,"\nAsarot digit = ",asarot,"\nAhadot digit = ",ahadot)
