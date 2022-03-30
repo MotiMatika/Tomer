@@ -40,15 +40,15 @@
 
 
 
-print("\n")
-x=int(input("type a number    : "))
-y=int(input("type a number    : "))
-print("The sum is       :",x+y)
-print("The difference is:",x-y)
-print("The double is    :",x*y)
-print("The divition     :",x/y)
-print("The power is    :",x**y)
-print("\n")
+# print("\n")
+# x=int(input("type a number    : "))
+# y=int(input("type a number    : "))
+# print("The sum is       :",x+y)
+# print("The difference is:",x-y)
+# print("The double is    :",x*y)
+# print("The divition     :",x/y)
+# print("The power is    :",x**y)
+# print("\n")
 
 
 
@@ -66,7 +66,9 @@ print("\n")
 # name = input("\ntype your name : ")
 # print(times*name)
 
-
+# txt=input("please enter a word : ")                                  #קלט של מחרוזת
+# count_num = len(txt)                                                 #אורך המחרוזת
+# print("_ " * count_num)
 
 
                                #התכנית מקבלת מספר ומכפילה אותו
@@ -87,8 +89,8 @@ print("\n")
 #print("your number",number,"multiply by", multiply, "is :",number * multiply) #פלט-תוצאת המכפלה
 
 
-                                 #התכנית קולטת 2 מספרים ומחברת אותם
-number1=float(input("choose a number :"))                                      #המחשב כותב את המשפט והמשתמש מקליד.המספר שיכניס,ייכנס לתאנמבר
-number2=float(input("you want to multiply it by :"))                         #המחשב כותב את המשפט והמשתמש מקליד.המספר שיכניס ייכנס למולטיפליי
-print("the number you chose is :",number1)                                     #פלט-המספר שהוקלד
-print("the sum of ",number1,"and", number2, "is :",number1 + number2) #פלט-תוצאת המכפלה
+#                                  #התכנית קולטת 2 מספרים ומחברת אותם
+# number1=float(input("choose a number :"))                                      #המחשב כותב את המשפט והמשתמש מקליד.המספר שיכניס,ייכנס לתאנמבר
+# number2=float(input("you want to multiply it by :"))                         #המחשב כותב את המשפט והמשתמש מקליד.המספר שיכניס ייכנס למולטיפליי
+# print("the number you chose is :",number1)                                     #פלט-המספר שהוקלד
+# print("the sum of ",number1,"and", number2, "is :",number1 + number2) #פלט-תוצאת המכפלה
