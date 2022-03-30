@@ -26,6 +26,21 @@
 #             print("\nthis is the biggest number ",D)                            
 # print("\n",max(A,B,C,D))
 
-import random
-x=random.randint()
-print(x)
+# import random
+# x=random.randint(1,30)
+# print(x)
+
+def x_1(a):
+   a=a+1 
+   return a
+print(x_1(2))
+
+def x_2(b):
+    b=b+1
+    return b
+print(x_2(4))
+
+def all(c,d):
+    sum=c+d
+    return sum
+print(all(1,2))
