@@ -60,7 +60,7 @@
 #     else:
 #         print(" "*5,"c > b > a\n"," "*4,c,">",b,">",a) 
 
-a = input ("\nfirst letter = ")
+a = input ("\nfirst letter  = ")
 b = input ("second letter = ")
-c = input ("third letter = ")
-print("\nThe Biggest Number is : ",max(a,b,c)) 
+c = input ("third letter  = ")
+print("\nThe Biggest Letter is : ",max(a,b,c)) 
