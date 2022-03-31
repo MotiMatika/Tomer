@@ -28,3 +28,13 @@
 #     print(a,"=",b)
 # else:
 #     print(b,">",a)
+
+#מזהה את האות שבאה אחרי האות האחרת
+a = input ("first letter = ")
+b = input ("second letter = ")
+if a>b:
+    print(a,"comes after",b)
+elif a==b:
+    print(a,"it's the same letter as",b)
+else:
+    print(b,"comes after",a)
