@@ -61,6 +61,9 @@
 # x=input("please enter a word ")
 # print(x)
 
+
+
+#קוד שמזהה את המילה הארוכה ביותר בתוך מחרוזת
 # new_str = ("today iffffffs friday")
 # num_of_words = new_str.split()
 # print(num_of_words)
