@@ -14,5 +14,5 @@ def sqr(a,b,c):
     elif Delta > 0:   
         print(" "*8,"X1 =",X1,"   X2 =",X2,"\n")
 
-sqr(2,-10,-40)
+sqr(2,-10,-34)
        
