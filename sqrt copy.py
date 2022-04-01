@@ -1,9 +1,7 @@
-
+#@@@@@@@@@@@@@@@@@@@@@@@@@@משוואה ריבועית#@@@@@@@@@@@@@@@@@@@@@@@@@@@
 import math
 print("\n")
-            # משוואה ריבועית
 def sqr(a,b,c):
-
     Delta = (math.pow(b,2)-4*a*c)
     if Delta < 0:
         print(" "*8,"NO Solution\n")
