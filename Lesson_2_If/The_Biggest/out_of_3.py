@@ -59,3 +59,8 @@
 #             print(" "*5,"b > c > a\n"," "*4,b,">",c,">",a)
 #     else:
 #         print(" "*5,"c > b > a\n"," "*4,c,">",b,">",a) 
+
+a = input ("\nfirst letter  = ")
+b = input ("second letter = ")
+c = input ("third letter  = ")
+print("\nThe Biggest Letter is : ",max(a,b,c)) 
