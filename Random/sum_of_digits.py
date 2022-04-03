@@ -5,8 +5,8 @@ import random
 num = random.randint(1,999)
 print("\nThe random number is :",num)
 def sum_digits(num):
-    c=str(num)
-    length=len(c)
+    convert_num=str(num)
+    length=len(convert_num)
     if length==1:
         sum = num
     elif length==2:
