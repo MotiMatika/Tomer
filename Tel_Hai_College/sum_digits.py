@@ -15,6 +15,6 @@ def sum_digits(num):
         sum = meot+asarot+ahadot
         #print(sum)
     return sum
-print("The number is :",num,"\nSum of its digits is :",sum_digits(504))
+print(sum_digits(504))
 
 
