@@ -4,26 +4,26 @@
 #אם היא מוצאת שני מספרים שווים היא מדפיסה : "מצאתי 2 מספרים שווים"
 #אם היא לא מוצאת , היא מדפיסה: "לא מצאתי מספרים שווים"
 
-a = input ("\na = ")
-b = input ("b = ")
-c = input ("c = ")
-if a==b or a==c:
-    print("I found 2 equal numbers")
-else:
-    print("I didn't found any equal numbers")
+# a = input ("\na = ")
+# b = input ("b = ")
+# c = input ("c = ")
+# if a==b or a==c:
+#     print("I found 2 equal numbers")
+# else:
+#     print("I didn't found any equal numbers")
 
 
 #למקרה בו המשתמש מכניס 3 מספרים זהים
 
-# a = input ("\na = ")
-# b = input ("b = ")
-# c = input ("c = ")
-# if a==b and a==c:
-#     print("I found 3 equal numbers")
-# elif a==b or a==c:
-#     print("I found 2 numbers")
-# else:
-#     print("I didn't found any equal numbers")
+a = input ("\na = ")
+b = input ("b = ")
+c = input ("c = ")
+if a==b and a==c:
+    print("I found 3 equal numbers")
+elif a==b or a==c:
+    print("I found 2 numbers")
+else:
+    print("I didn't found any equal numbers")
 
 
 #תרגיל 2
