@@ -60,7 +60,15 @@
 #     else:
 #         print(" "*5,"c > b > a\n"," "*4,c,">",b,">",a) 
 
-a = input ("\nfirst letter  = ")
-b = input ("second letter = ")
-c = input ("third letter  = ")
-print("\nThe Biggest Letter is : ",max(a,b,c)) 
+# a = input ("\nfirst letter  = ")
+# b = input ("second letter = ")
+# c = input ("third letter  = ")
+# print("\nThe Biggest Letter is : ",max(a,b,c)) 
+
+
+#הקטן מבין 3 מספרים
+# רק אם הם שונים
+a = input ("\na = ")
+b = input ("b = ")
+c = input ("c = ")
+print("\nThe smallest Number is : ",min(a,b,c))
