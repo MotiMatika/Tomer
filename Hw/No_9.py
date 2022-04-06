@@ -23,7 +23,7 @@ if a==b and a==c:
 elif a==b or a==c:
     print("I found 2 numbers")
 else:
-    print("I didn't found any equal numbers")
+    print("I didn't find any equal numbers")
 
 
 #תרגיל 2
