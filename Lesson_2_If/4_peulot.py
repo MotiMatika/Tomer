@@ -1,5 +1,5 @@
-# print("what ?")
-# op = input("+,-,*,/")
+# print("what operation do you want ?")
+# op = input(" + , - , * , / ")
 # n1 = int(input("n1= "))
 # n2 = int(input("n2= "))
 # if op == "+":
@@ -10,6 +10,9 @@
 #     print("n1*n2 = ",n1*n2)
 # else:
 #     print("n1/n2 = ",n1/n2)
+
+
+
 
 print("עצבל הצרת הלועפ וזיא ?")
 op = input("+  ,  -  ,  *  ,  /  ")
