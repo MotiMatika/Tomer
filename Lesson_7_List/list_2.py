@@ -281,13 +281,17 @@
 
 
 
-lst = [1, -15, 20] 
-x = max(lst)
-y = sum(lst)
-z = len(lst)
-result = min(x, y, z) 
-print(result)
+# lst = [1, -15, 20] 
+# x = max(lst)
+# y = sum(lst)
+# z = len(lst)
+# result = min(x, y, z) 
+# print(result)
 
 
-
+#בקוד זה הפלט יהיה רשימת הערכים עד לערך השלילי
+# numbers = [1,3,5,0,-4,10]
+# for val in numbers:
+#     if val<0:
+#         break
 
