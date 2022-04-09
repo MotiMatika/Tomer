@@ -25,17 +25,17 @@
 
 # הקוד מסכם ספרותיו של מספר אקראי                                
 # דרור   9.4.22                                 
-import random
-number = random.randint(1,10000)
-def sum_int(number):
-    print(number)
-    sum = 0
-    while number != 0:
-        sum = sum + number % 10   #מודולו משאיר את השארית לאחר החילוק ב 10
-        number = number // 10# הפעולה // לוקחת את התוצאה השלמה לאחר חילוק ב 10     
-    return sum
+# import random
+# number = random.randint(1,10000)
+# def sum_int(number):
+#     print(number)
+#     sum = 0
+#     while number != 0:
+#         sum = sum + number % 10   #מודולו משאיר את השארית לאחר החילוק ב 10
+#         number = number // 10# הפעולה // לוקחת את התוצאה השלמה לאחר חילוק ב 10     
+#     return sum
 
-print(sum_int(number))
+# print(sum_int(number))
 
 
 
