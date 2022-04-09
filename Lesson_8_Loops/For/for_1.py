@@ -10,3 +10,9 @@
 # for i in numbers:
 #     sum +=i
 # print("\nSum = ",sum)
+
+
+#קוד שמדפיס את לוח הכפל של מספר 
+# n=10
+# for i in range(1,11):
+#     print("\n",n,"x",i,"=",n*i)
