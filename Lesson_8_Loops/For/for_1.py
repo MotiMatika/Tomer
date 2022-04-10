@@ -4,9 +4,9 @@
 
 
 #קוד שרושם את כל המספרים בטווח שניתן לו
-num=8
-for i in range(0,num):
-    print(i)
+# num=8
+# for i in range(0,num):
+#     print(i)
 
 
 
