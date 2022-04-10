@@ -1,5 +1,5 @@
 
-#הקוד מדפיס כמות אקראית של מספרים לפי הטוו שניתן לו
+#הקוד מדפיס כמות אקראית של מספרים לפי הטווח שניתן לו
 # import random
 # num = random.randint(1,10)
 # print("\n the random number is : ",num)
@@ -27,7 +27,7 @@
 #     sum = sum+i
 #     print(sum)
 
-#הקוש מריץ מספרים אקראיים וקובע אם המספר זוגי או אי-זוגי
+#הקוד מריץ מספרים אקראיים וקובע אם המספר זוגי או אי-זוגי
 # import random
 # num = random.randint(1,100)
 # print("\n"*5,"The Random number is :",num)
