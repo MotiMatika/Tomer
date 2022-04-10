@@ -2,9 +2,14 @@
 #     if i%2 !=0  and i%3!=0 and i%5!=0 and i%7!=0: 
 #         print (i)
 
-print("\n"*40)
-i = int(input("enter :"))
-if i%2 !=0  and i%3!=0 and i%5!=0 and i%7!=0: 
-    print(i," is a primery number")
-else:
-    print("not a primery")
+# num=97
+# print("\n"*20)
+# for i in range(2,num):
+#     if num%i ==0  : 
+#         print(i," is not a primery number")
+# else:
+#     print(i," primery")
+
+num=8
+for i in range(0,num):
+    print(i)
