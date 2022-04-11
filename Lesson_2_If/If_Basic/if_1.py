@@ -87,7 +87,15 @@
 #      print("\nילילש")
 
 
-#            
+
+#קוד שמקבל מספר ומוציא את הערך המוחלט שלו
+# num=-512
+# if num >=0:
+#     print ("\nThe Absult Number of ",num,"Is ",num)
+# else:
+#     print("\nThe Absult Number of ",num,"Is ",-num)
+
+       
 
 
 
