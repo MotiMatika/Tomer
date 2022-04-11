@@ -50,6 +50,6 @@
 #         print("\nThe Absolute Number of ",num,"Is ",-num)
 # absolute(-3423)
 
-def greeting(name):
-    print("Hello",name,".","How are you ?")
-greeting("moti")
+# def greeting(name):
+#     print("\nHello",name,".","How are you ?")
+# greeting("moti")
