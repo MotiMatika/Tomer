@@ -42,7 +42,7 @@
 
 def absolute(num):
     if num >=0:
-        print ("\nThe Absolute Number of ",num,"Is ",num)
+        print("\nThe Absolute Number of ",num,"Is ",num)
     else:
         print("\nThe Absolute Number of ",num,"Is ",-num)
 absolute(-3423)
