@@ -40,9 +40,16 @@
 
 # print(lon_word("today is friday"))
 
-def absolute(num):
-    if num >=0:
-        print("\nThe Absolute Number of ",num,"Is ",num)
-    else:
-        print("\nThe Absolute Number of ",num,"Is ",-num)
-absolute(-3423)
+
+#פונקציה שמקבלת מספר ומדפיסה את הערך המוחלט שלו
+#אפשר גם גירסה למספר אקראי
+# def absolute(num):
+#     if num >=0:
+#         print("\nThe Absolute Number of ",num,"Is ",num)
+#     else:
+#         print("\nThe Absolute Number of ",num,"Is ",-num)
+# absolute(-3423)
+
+def greeting(name):
+    print("Hello",name,".","How are you ?")
+greeting("moti")
