@@ -94,3 +94,44 @@
 # number2=float(input("you want to multiply it by :"))                         #המחשב כותב את המשפט והמשתמש מקליד.המספר שיכניס ייכנס למולטיפליי
 # print("the number you chose is :",number1)                                     #פלט-המספר שהוקלד
 # print("the sum of ",number1,"and", number2, "is :",number1 + number2) #פלט-תוצאת המכפלה
+
+
+#הקוד מחשב את גיל המשתמש בשנת 2030
+# name = input("\ntype your name :")
+# age = int(input("\ntype your age :"))
+# print(name, "\nin the year 2030 your age will be:",age+8)
+
+
+#הקוד מחשב ממוצע של 3 מבחנים
+# a = int(input("\nfirst grade :"))
+# b = int(input("\nsecond grade :"))
+# c = int(input("\nthird grade :"))
+# average = (a+b+c)/3
+# print("\nyour average grade is : ",average)
+
+
+# #הקוד מקבל 3 מספרים ומדפיס את סכומם בתצורות שונות
+# a = int(input("\nfirst number :"))
+# b = int(input("\nsecond number :"))
+# c = int(input("\nthird number :"))
+# sum = a+b+c
+# print(sum,"=",a,"+",b,"+",c)
+# print(sum,"=",a,"+",c,"+",b)
+# print(sum,"=",b,"+",c,"+",a)
+# print(sum,"=",b,"+",a,"+",c)
+# print(sum,"=",c,"+",a,"+",b)
+# print(sum,"=",c,"+",b,"+",a)
+
+
+#הקוד מקבל 3 מספרים ומדפיס את מכפלתם בתצורות שונות
+# a = int(input("\nfirst number :"))
+# b = int(input("\nsecond number :"))
+# c = int(input("\nthird number :"))
+# multiply = a*b*c
+# print(multiply,"=",a,"*",b,"*",c)
+# print(multiply,"=",a,"*",c,"*",b)
+# print(multiply,"=",b,"*",c,"*",a)
+# print(multiply,"=",b,"*",a,"*",c)
+# print(multiply,"=",c,"*",a,"*",b)
+# print(multiply,"=",c,"*",b,"*",a)
+
