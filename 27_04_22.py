@@ -14,12 +14,23 @@
 #2
 # name = "moti"
 # if "i" in name:
-#     print("\ngood")
+#     print("\ni in ",name)
 # else:
-#     print("\nnot good")
+#     print("\ni is not in ",name)
+
 
 
 #3
+# name = "moti"
+# letter = "t"
+# if letter in name:
+#     print("\n",letter, "in",name)
+# else:
+#     print("\n",letter,"is not in",name)
+
+
+
+#4
 # two_digits = int(input("\nenter a number of 2 digits "))
 # asarot = int(two_digits/10)
 # ahadot = two_digits-asarot*10
