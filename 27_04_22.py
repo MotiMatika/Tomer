@@ -29,7 +29,7 @@
 #     print("\n",letter,"is not in",name)
 
 
-
+#להדגים הרצה של הקוד:מציג מספר דו ספרתי לפי ספרותיו
 #4
 # two_digits = int(input("\nenter a number of 2 digits "))
 # asarot = int(two_digits/10)
@@ -37,5 +37,8 @@
 # print("Asarot digit = ",asarot,"\nAhadot digit = ",ahadot)
 
 
-
+two_digits = int(input("\nenter a number of 2 digits "))
+asarot = two_digits% 10
+ahadot = two_digits-asarot*10
+print("Asarot digit = ",asarot,"\nAhadot digit = ",ahadot)
 
