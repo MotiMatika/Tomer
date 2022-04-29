@@ -38,7 +38,7 @@
 
 
 two_digits = int(input("\nenter a number of 2 digits "))
-asarot = two_digits% 10
-ahadot = two_digits-asarot*10
+asarot = two_digits//10
+ahadot = two_digits% 10
 print("Asarot digit = ",asarot,"\nAhadot digit = ",ahadot)
 
