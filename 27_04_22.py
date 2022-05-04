@@ -20,12 +20,51 @@
 
 
 #3
-two_digits = int(input("\nenter a number of 2 digits "))
-asarot = int(two_digits/10)
-# print(asarot)
-ahadot = two_digits-asarot*10
-print("Asarot digit = ",asarot,"\nAhadot digit = ",ahadot)
+# two_digits = int(input("\nenter a number of 2 digits "))
+# asarot = int(two_digits/10)
+# # print(asarot)
+# ahadot = two_digits-asarot*10
+# print("Asarot digit = ",asarot,"\nAhadot digit = ",ahadot)
+
+
+# x=9%2
+# print(x)
+
+# x=8%3
+# print(x)
+
+# x=4%2
+# print(x)
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# x=9//2
+# print(x)
+
+# x=8//3
+# print(x)
+
+# x=4//2
+# print(x)
+
+
+
+# print(4//2)
+
+print("\nthis is asarot digit",76//10)
+print("this is ahadot digit",76%10)
