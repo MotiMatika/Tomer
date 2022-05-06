@@ -47,10 +47,11 @@
 # x=4%2
 # print(x)
 
-two_digits = int(input("\nenter a number of 2 digits "))
-asarot = two_digits//10
-ahadot = two_digits% 10
-print("Asarot digit = ",asarot,"\nAhadot digit = ",ahadot)
+# two_digits = int(input("\nenter a number of 2 digits "))
+# asarot = two_digits//10
+# ahadot = two_digits% 10
+# print("Asarot digit = ",asarot,"\nAhadot digit = ",ahadot)
+
 
 
 

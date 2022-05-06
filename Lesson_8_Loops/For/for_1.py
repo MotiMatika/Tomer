@@ -44,10 +44,14 @@
 #          print(i)
 
 
+#הקוד רושם את כל המספרים בטווח שניתן לו
+# for n in range(6):
+#     print (n)
 
-
-
-
+#הקוד רושם את כל האותיות במחרוזת של השם במאונך
+# name = input("Enter name: ")
+# for letter in name:
+#     print (letter)
 
 
 
