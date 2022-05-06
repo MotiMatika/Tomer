@@ -44,23 +44,4 @@
 #מה יקרה אם פרינט יהיה מחוץ ללולאה   
 
 
-#קוד שמחשב עצרת של מספר
 
-# target = int(input("\nwhich number do you want to calculate ? "))
-# num=1
-# counter = 1
-
-# while counter <=target:
-#     num = counter*num
-#     counter = counter+1
-# print("\n",target,"! = ", num)
-
-
-target = int(input("\nwhich number do you want to calculate ? "))
-num=1
-counter = 1
-
-while counter <=target:
-    num = counter*num
-    print(counter,"!  =",num)
-    counter = counter+1
