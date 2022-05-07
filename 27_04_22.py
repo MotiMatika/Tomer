@@ -52,7 +52,10 @@
 # ahadot = two_digits% 10
 # print("Asarot digit = ",asarot,"\nAhadot digit = ",ahadot)
 
-
+#התוצר
+# enter a number of 2 digits 54
+# Asarot digit =  5 
+# Ahadot digit =  4
 
 
 

@@ -30,4 +30,8 @@
 # x=random.randint(1,30)
 # print(x)
 
+from asyncore import read
 
+
+x=open("070522.txt","r")
+print(x)
