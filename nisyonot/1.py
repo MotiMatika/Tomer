@@ -33,5 +33,5 @@
 from asyncore import read
 
 
-x=open("nisyonot\\07_05_22.txt","r")
+x=open("nisyonot\_05_22.txt","r")
 print(x)
