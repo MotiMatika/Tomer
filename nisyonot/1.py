@@ -30,8 +30,8 @@
 # x=random.randint(1,30)
 # print(x)
 
-from asyncore import read
 
 
-x=open("nisyonot\_05_22.txt","r")
+
+x=open("nisyonot\05_22.txt","r")
 print(x)
