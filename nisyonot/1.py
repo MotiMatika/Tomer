@@ -34,4 +34,14 @@
 
 
 x=open(r"C:\Users\User\OneDrive\Documents\GitHub\Tomer\nisyonot\a.txt","r")
-print(x)
+#y=x.read()
+
+z=list(x)
+z.sort()
+print(z)
+x.close()
+
+
+# x=["e","a","z","b"]
+# x.sort()
+# print(x)
