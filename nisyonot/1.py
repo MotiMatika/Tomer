@@ -34,8 +34,6 @@
 
 
 x=open(r"C:\Users\User\OneDrive\Documents\GitHub\Tomer\nisyonot\a.txt","r")
-#y=x.read()
-
 z=list(x)
 z.sort()
 print(z)
