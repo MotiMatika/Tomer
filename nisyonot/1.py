@@ -33,5 +33,5 @@
 
 
 
-x=open("nisyonot\05_22.txt","r")
+x=open("C:\Users\User\OneDrive\Documents\GitHub\Tomer\\nisyonot\\a.txt","r")
 print(x)
