@@ -33,13 +33,15 @@
 
 
 
-x=open(r"C:\Users\User\OneDrive\Documents\GitHub\Tomer\nisyonot\a.txt","r")
-z=list(x)
-z.sort()
-print(z)
-x.close()
+# x=open(r"C:\Users\User\OneDrive\Documents\GitHub\Tomer\nisyonot\a.txt","r")
+# z=list(x)
+# z.sort()
+# print(z)
+# x.close()
 
 
 # x=["e","a","z","b"]
 # x.sort()
 # print(x)
+
+
