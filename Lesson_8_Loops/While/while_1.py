@@ -23,13 +23,13 @@
 
 
 #                   #הקוד מחבר כמות של איברים החל מ1
-# sum = 0
-# n   = 2           #כמות האיברים בסידרה 
-# i   = 1
-# while i<=n:
-#     sum = sum+i
-#     i = i+1       #מונה את המחוברים
-# print("\nThe Sum of ",n,"numbers is", sum)    
+sum = 0
+n   = 100           #כמות האיברים בסידרה 
+i   = 1
+while i<=n:
+    sum = sum+i
+    i = i+1       #מונה את המחוברים
+print("\nThe Sum of the first ",n,"numbers is", sum)    
 
 #כפולות 2
 # n=2
@@ -51,15 +51,15 @@
 
 
 #מה יקרה אם נריץ את הלולאה
-while 1>3:
-    print("Hellow")
-print("\nend of loop")
+# while 1>3:
+#     print("Hellow")
+# print("\nend of loop")
 
 
 #רשום קוד בעזרת הלולאה ווייל שירשום את כל המספרים מ 1 עד 10
 
 
-counter = 1
-while counter <=10:
-    print(counter)
-    counter = counter+1
+# counter = 1
+# while counter <=10:
+#     print(counter)
+#     counter = counter+1
