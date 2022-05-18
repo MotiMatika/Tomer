@@ -53,3 +53,44 @@
 # def greeting(name):
 #     print("\nHello",name,".","How are you ?")
 # greeting("moti")
+
+
+#שלבים בבניית פונקציה
+
+#הפונקציה ממתינה לקלט
+#כשיהיה לה קלט היא תחזיר אותו-אם תהיה פקודת הדפסה
+def first_func(a):
+    return a
+
+
+#הפונקציה ממתינה לקלט
+#כשיהיה לה קלט היא תחזיר אותו-אם תהיה פקודת הדפסה
+def first_func(a):
+    return a    
+first_func(5)  #קריאה לפונקציה
+#לא יוחזר דבר
+
+def first_func(a):
+    return a    
+print(first_func(5))
+#יודפס הקלט
+
+def second_func(b):
+    return b
+
+#ניתן להשתמש בתוצרים של הפונקציות לפעולות בין הפונקציות
+x = first_func(2) + second_func(8)
+print(x)
+
+y = first_func(3) * second_func(2)
+print(y)
+
+#או בדרך אחרת
+#להכניס תוצר של כל פונקציה למשתנה אחר -ואז לבצע פעולות
+x = first_func(4)
+y = second_func(5)
+print(x+y)
+
+# def first_func(a):
+#     return a
+# print("\n",first_func(5))
