@@ -100,11 +100,14 @@
 # sr(1,0,6) 
 
 
+from this import d
+
+
 def print123():
     print("1")
     print("2")
     print("3")
-print(print123())
+print123()
 
 # מדפיס אותי
 # def printMe():
@@ -119,3 +122,34 @@ print(print123())
 
 # result = printCalculation(4,5)
 # print("The result is: ", result)                                        #קריאה לפונקציה והשמת ערכים
+
+
+
+def plus(a,b):
+    sum = a+b
+    return sum
+
+def minus(a,b):
+    difference = a-b
+    return difference
+
+def multi(a,b):
+    multi = a*b
+    return multi
+
+def divide(a,b):
+    divide = a+b
+    return divide
+
+def
+
+
+
+
+
+
+
+
+
+
+
