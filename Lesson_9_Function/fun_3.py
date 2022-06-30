@@ -148,14 +148,22 @@ def divide(a,b):
 
 
 def main():
-    print("\n")
-    first_num  = int(input("Plese enter #1 : ")) 
-    second_num = int(input("Plese enter #2 : "))
     
-    print("The Sum      of the two numbers is :",plus(first_num,second_num))
-    print("The diffrece of the two numbers is :",minus(first_num,second_num))
-    print("The double   of the two numbers is :",multi(first_num,second_num))
-    print("The division of the two numbers is :",divide(first_num,second_num))
+    print("\n")
+    print("_"*20)
+    
+    first_num  = int(input("Please enter #1 : ")) 
+    second_num = int(input("Please enter #2 : "))
+    print("_"*20)
+    
+    print("\n")
+    print("_"*40)
+    print("The Sum      of the two numbers is :",plus  (first_num,second_num))
+    print("The Diffrece of the two numbers is :",minus (first_num,second_num))
+    print("The Double   of the two numbers is :",multi (first_num,second_num))
+    print("The Division of the two numbers is :",divide(first_num,second_num))
+    print("_"*40)
+    print("\n")
     
 if __name__ == "__main__":
     main()
