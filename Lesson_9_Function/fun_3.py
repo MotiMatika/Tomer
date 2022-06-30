@@ -100,14 +100,14 @@
 # sr(1,0,6) 
 
 
-from this import d
+#from this import d
 
 
-def print123():
-    print("1")
-    print("2")
-    print("3")
-print123()
+#def print123():
+#    print("1")
+#    print("2")
+#    print("3")
+#print123()
 
 # מדפיס אותי
 # def printMe():
@@ -124,24 +124,41 @@ print123()
 # print("The result is: ", result)                                        #קריאה לפונקציה והשמת ערכים
 
 
+#ארבע פונקציות שכל אחת מייצגת פעולה חשבונית בין שני מספרים
+#פונקציית מיין שמאגדת את כל 4 הפונקציות
 
 def plus(a,b):
     sum = a+b
     return sum
 
+
 def minus(a,b):
     difference = a-b
     return difference
+
 
 def multi(a,b):
     multi = a*b
     return multi
 
+
 def divide(a,b):
-    divide = a+b
+    divide = a/b
     return divide
 
-def
+
+def main():
+    print("\n")
+    first_num  = int(input("Plese enter #1 : ")) 
+    second_num = int(input("Plese enter #2 : "))
+    
+    print("The Sum      of the two numbers is :",plus(first_num,second_num))
+    print("The diffrece of the two numbers is :",minus(first_num,second_num))
+    print("The double   of the two numbers is :",multi(first_num,second_num))
+    print("The division of the two numbers is :",divide(first_num,second_num))
+    
+if __name__ == "__main__":
+    main()
 
 
 
