@@ -147,41 +147,65 @@ def divide(a,b):
     return divide
 
 
-def main():
+# def main():
     
-    #מסגרת
-    print("\n")
-    print("_"*20)
+#     #מסגרת
+#     print("\n")
+#     print("_"*20)
     
-    #קלט 2 מספרים
-    first_num  = int(input("Please enter #1 : ")) 
-    second_num = int(input("Please enter #2 : "))
-    print("_"*20)
+#     #קלט 2 מספרים
+#     first_num  = int(input("Please enter #1 : ")) 
+#     second_num = int(input("Please enter #2 : "))
+#     print("_"*20)
     
-    #מסגרת
-    print("\n")
-    print("_"*40)
+#     #מסגרת
+#     print("\n")
+#     print("_"*40)
     
-    #פלט ע"י קריאה לפונקציות שלעיל 
-    print("The Sum      of the two numbers is :" ,plus  (first_num,second_num))
-    print("The Diffrence of the two numbers is :",minus (first_num,second_num))
-    print("The Product  of the two numbers is :" ,multi (first_num,second_num))
-    print("The Division of the two numbers is :" ,divide(first_num,second_num))
+#     #פלט ע"י קריאה לפונקציות שלעיל 
+#     print("The Sum      of the two numbers is :" ,plus  (first_num,second_num))
+#     print("The Diffrence of the two numbers is :",minus (first_num,second_num))
+#     print("The Product  of the two numbers is :" ,multi (first_num,second_num))
+#     print("The Division of the two numbers is :" ,divide(first_num,second_num))
     
-    #מסגרת
-    print("_"*40)
-    print("\n")
+#     #מסגרת
+#     print("_"*40)
+#     print("\n")
     
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
 
 
 
+#הפונקציה מחשבת ממוצע ציונים בהינתן לה רשימה של ציונים
+grades = [40,50,60,70,80,90]               #רשימת הציונים
+def average_grades(grades):
+    sum_grades=0                        #איתחול סכום הציונים
+    count=0                             #איתחול מניית כמות הציונים
+    for grade in grades:
+        sum_grades=sum_grades+grade     #סכום הציונים
+        count=count+1                   #מניית הציונים
+
+    av=sum_grades/count                 #חישוב הממוצע
+    return av
+ 
+print(average_grades(grades))
 
 
-
-
-
+# # def main():
+# sum_grades=0
+# count=0
+# grades = [40,50,60,70,80]
+# for grade in grades:
+#     # grade1= grade
+#     sum_grades=sum_grades+grade
+#     count=count+1
+# print(sum_grades)
+# print(count)
+# print("average= ",sum_grades/count)
+    
+# # if __name__ == "__main__":
+# #     main()
 
 
 
