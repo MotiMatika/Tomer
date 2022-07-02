@@ -178,7 +178,31 @@ def divide(a,b):
 
 
 #הפונקציה מחשבת ממוצע ציונים בהינתן לה רשימה של ציונים
-grades = [40,50,60,70,80,90]               #רשימת הציונים
+# grades = [40,50,60,70,80,90]            #רשימת הציונים
+# def average_grades(grades):
+#     sum_grades=0                        #איתחול סכום הציונים
+#     count=0                             #איתחול מניית כמות הציונים
+#     for grade in grades:
+#         sum_grades=sum_grades+grade     #סכום הציונים
+#         count=count+1                   #מניית הציונים
+
+#     av=sum_grades/count                 #חישוב הממוצע
+#     return av
+ 
+# print(average_grades(grades))
+
+#רשימת של 6 ציונים אקראיים
+import random
+g1=random.randint(40,100)
+g2=random.randint(40,100)
+g3=random.randint(40,100)
+g4=random.randint(40,100)
+g5=random.randint(40,100)
+g6=random.randint(40,100)
+
+grades = [g1,g2,g3,g4,g5,g6]
+print(grades) 
+
 def average_grades(grades):
     sum_grades=0                        #איתחול סכום הציונים
     count=0                             #איתחול מניית כמות הציונים
@@ -191,18 +215,14 @@ def average_grades(grades):
  
 print(average_grades(grades))
 
+#לשפר את הקוד לאפשר לו לקרוא מקובץ אקסל ציונים ולבצע ממוצע
+
+
+
+
 
 # # def main():
-# sum_grades=0
-# count=0
-# grades = [40,50,60,70,80]
-# for grade in grades:
-#     # grade1= grade
-#     sum_grades=sum_grades+grade
-#     count=count+1
-# print(sum_grades)
-# print(count)
-# print("average= ",sum_grades/count)
+
     
 # # if __name__ == "__main__":
 # #     main()
