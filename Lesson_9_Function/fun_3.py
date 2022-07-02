@@ -149,19 +149,26 @@ def divide(a,b):
 
 def main():
     
+    #מסגרת
     print("\n")
     print("_"*20)
     
+    #קלט 2 מספרים
     first_num  = int(input("Please enter #1 : ")) 
     second_num = int(input("Please enter #2 : "))
     print("_"*20)
     
+    #מסגרת
     print("\n")
     print("_"*40)
-    print("The Sum      of the two numbers is :",plus  (first_num,second_num))
+    
+    #פלט ע"י קריאה לפונקציות שלעיל 
+    print("The Sum      of the two numbers is :" ,plus  (first_num,second_num))
     print("The Diffrence of the two numbers is :",minus (first_num,second_num))
-    print("The Product  of the two numbers is :",multi (first_num,second_num))
-    print("The Division of the two numbers is :",divide(first_num,second_num))
+    print("The Product  of the two numbers is :" ,multi (first_num,second_num))
+    print("The Division of the two numbers is :" ,divide(first_num,second_num))
+    
+    #מסגרת
     print("_"*40)
     print("\n")
     
