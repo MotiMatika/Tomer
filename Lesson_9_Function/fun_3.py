@@ -218,24 +218,28 @@ def divide(a,b):
 #לשפר את הקוד לאפשר לו לקרוא מקובץ אקסל ציונים ולבצע ממוצע
 
 
-#  פונקציה שמדפיסה  ציונים אקראיים כרשימה ומחשבת את הממוצע   
+#פונקציה שמדפיסה  ציונים אקראיים כרשימה 
+#ומדפיסה את:
+# רשימת הציונים,את הציון הגבוה,הנמוך והממוצע   
 import random
 
-def rd():
-    list=[]
-    sum=0
-    i=1
-    num_test=int(input("\nWhat is the number of tests you have ?: "))
-    while i<=num_test:
+list=[]
+sum=0
+i=1
+
+num_test=int(input("\nWhat is the number of tests you have ?: "))
+while i<=num_test:
         grade=random.randint(40,100)
         sum=sum+grade
         list.append(grade)
+        list.sort()
         i+=1
-    print(list)
-    print("average= ",sum/num_test)
-    #return sum    
-rd()
-
+print("The grades are: ",list)
+print("The highest grade is: ",list.pop(num_test-1))
+print("The lowest grade is : ",list.pop(0))
+print("The average of the",num_test,"tests is :",sum/num_test)
+   
+#איך הופכים את הקוד לפונקציות קטנות ומשלבים אותן בפונקציית מיין
 
 
 
