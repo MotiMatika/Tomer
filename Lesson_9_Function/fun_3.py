@@ -192,34 +192,54 @@ def divide(a,b):
 # print(average_grades(grades))
 
 #רשימת של 6 ציונים אקראיים
-import random
-g1=random.randint(40,100)
-g2=random.randint(40,100)
-g3=random.randint(40,100)
-g4=random.randint(40,100)
-g5=random.randint(40,100)
-g6=random.randint(40,100)
+# import random
+# g1=random.randint(40,100)
+# g2=random.randint(40,100)
+# g3=random.randint(40,100)
+# g4=random.randint(40,100)
+# g5=random.randint(40,100)
+# g6=random.randint(40,100)
 
-grades = [g1,g2,g3,g4,g5,g6]
-print(grades) 
+# grades = [g1,g2,g3,g4,g5,g6]
+# print(grades) 
 
-def average_grades(grades):
-    sum_grades=0                        #איתחול סכום הציונים
-    count=0                             #איתחול מניית כמות הציונים
-    for grade in grades:
-        sum_grades=sum_grades+grade     #סכום הציונים
-        count=count+1                   #מניית הציונים
+# def average_grades(grades):
+#     sum_grades=0                        #איתחול סכום הציונים
+#     count=0                             #איתחול מניית כמות הציונים
+#     for grade in grades:
+#         sum_grades=sum_grades+grade     #סכום הציונים
+#         count=count+1                   #מניית הציונים
 
-    av=sum_grades/count                 #חישוב הממוצע
-    return av
+#     av=sum_grades/count                 #חישוב הממוצע
+#     return av
  
-print(average_grades(grades))
+# print(average_grades(grades))
 
 #לשפר את הקוד לאפשר לו לקרוא מקובץ אקסל ציונים ולבצע ממוצע
 
 
+#  פונקציה שמדפיסה  ציונים אקראיים כרשימה ומחשבת את הממוצע   
+import random
+
+def rd():
+    list=[]
+    sum=0
+    i=1
+    num_test=int(input("\nWhat is the number of tests you have ?: "))
+    while i<=num_test:
+        grade=random.randint(40,100)
+        sum=sum+grade
+        list.append(grade)
+        i+=1
+    print(list)
+    print("average= ",sum/num_test)
+    #return sum    
+rd()
 
 
+
+
+#def list_of_grades():
 
 # # def main():
 

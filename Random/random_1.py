@@ -77,3 +77,14 @@
 #     print("\nבוט האור אל התא")
 # else:
 #     print("\nהעוט התא")
+
+
+# import random
+
+# i=1
+# while i<=5:
+#     x=random.randint(1,10)
+#     print(x)
+#     i+=1
+    
+    

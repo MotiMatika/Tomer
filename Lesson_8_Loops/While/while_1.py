@@ -63,3 +63,15 @@ print("\nThe Sum of the first ",n,"numbers is", sum)
 # while counter <=10:
 #     print(counter)
 #     counter = counter+1
+
+
+#קוד שמדפיס חמישה מספרים אקראיים מהעשרת הראשונה
+import random
+
+
+i=1
+while i<=5:
+    x=random.randint(1,10)
+    print(x)
+    i+=1
+
