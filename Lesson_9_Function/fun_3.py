@@ -100,11 +100,14 @@
 # sr(1,0,6) 
 
 
-def print123():
-    print("1")
-    print("2")
-    print("3")
-print(print123())
+#from this import d
+
+
+#def print123():
+#    print("1")
+#    print("2")
+#    print("3")
+#print123()
 
 # מדפיס אותי
 # def printMe():
@@ -119,3 +122,134 @@ print(print123())
 
 # result = printCalculation(4,5)
 # print("The result is: ", result)                                        #קריאה לפונקציה והשמת ערכים
+
+
+#ארבע פונקציות שכל אחת מייצגת פעולה חשבונית בין שני מספרים
+#פונקציית מיין שמאגדת את כל 4 הפונקציות
+
+def plus(a,b):
+    sum = a+b
+    return sum
+
+
+def minus(a,b):
+    difference = a-b
+    return difference
+
+
+def multi(a,b):
+    multi = a*b
+    return multi
+
+
+def divide(a,b):
+    divide = a/b
+    return divide
+
+
+# def main():
+    
+#     #מסגרת
+#     print("\n")
+#     print("_"*20)
+    
+#     #קלט 2 מספרים
+#     first_num  = int(input("Please enter #1 : ")) 
+#     second_num = int(input("Please enter #2 : "))
+#     print("_"*20)
+    
+#     #מסגרת
+#     print("\n")
+#     print("_"*40)
+    
+#     #פלט ע"י קריאה לפונקציות שלעיל 
+#     print("The Sum      of the two numbers is :" ,plus  (first_num,second_num))
+#     print("The Diffrence of the two numbers is :",minus (first_num,second_num))
+#     print("The Product  of the two numbers is :" ,multi (first_num,second_num))
+#     print("The Division of the two numbers is :" ,divide(first_num,second_num))
+    
+#     #מסגרת
+#     print("_"*40)
+#     print("\n")
+    
+# if __name__ == "__main__":
+#     main()
+
+
+
+#הפונקציה מחשבת ממוצע ציונים בהינתן לה רשימה של ציונים
+# grades = [40,50,60,70,80,90]            #רשימת הציונים
+# def average_grades(grades):
+#     sum_grades=0                        #איתחול סכום הציונים
+#     count=0                             #איתחול מניית כמות הציונים
+#     for grade in grades:
+#         sum_grades=sum_grades+grade     #סכום הציונים
+#         count=count+1                   #מניית הציונים
+
+#     av=sum_grades/count                 #חישוב הממוצע
+#     return av
+ 
+# print(average_grades(grades))
+
+#רשימת של 6 ציונים אקראיים
+# import random
+# g1=random.randint(40,100)
+# g2=random.randint(40,100)
+# g3=random.randint(40,100)
+# g4=random.randint(40,100)
+# g5=random.randint(40,100)
+# g6=random.randint(40,100)
+
+# grades = [g1,g2,g3,g4,g5,g6]
+# print(grades) 
+
+# def average_grades(grades):
+#     sum_grades=0                        #איתחול סכום הציונים
+#     count=0                             #איתחול מניית כמות הציונים
+#     for grade in grades:
+#         sum_grades=sum_grades+grade     #סכום הציונים
+#         count=count+1                   #מניית הציונים
+
+#     av=sum_grades/count                 #חישוב הממוצע
+#     return av
+ 
+# print(average_grades(grades))
+
+#לשפר את הקוד לאפשר לו לקרוא מקובץ אקסל ציונים ולבצע ממוצע
+
+
+#פונקציה שמדפיסה  ציונים אקראיים כרשימה 
+#ומדפיסה את:
+# רשימת הציונים,את הציון הגבוה,הנמוך והממוצע   
+import random
+
+list=[]
+sum=0
+i=1
+
+num_test=int(input("\nWhat is the number of tests you have ?: "))
+while i<=num_test:
+        grade=random.randint(40,100)
+        sum=sum+grade
+        list.append(grade)
+        list.sort()
+        i+=1
+print("The grades are: ",list)
+print("The highest grade is: ",list.pop(num_test-1))
+print("The lowest grade is : ",list.pop(0))
+print("The average of the",num_test,"tests is :",sum/num_test)
+   
+#איך הופכים את הקוד לפונקציות קטנות ומשלבים אותן בפונקציית מיין
+
+
+
+#def list_of_grades():
+
+# # def main():
+
+    
+# # if __name__ == "__main__":
+# #     main()
+
+
+

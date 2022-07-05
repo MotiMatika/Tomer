@@ -22,14 +22,14 @@
 # print("\nSn = ",sum_between_2(-2,2)) 
 
 #אותה תכנית:מסכמת מספרים עוקבים בין 2 מספרים-ללא הקצוות
-start=0
-end=1
-a=start+1
-z=end-1
-kamut=end-start-1
-sum=((start+end)/2)*kamut
-print("\nThe sum of the numbers between",
-start,"and",end,"is",sum)
+#start=0
+#end=1
+#a=start+1
+#z=end-1
+#kamut=end-start-1
+#sum=((start+end)/2)*kamut
+#print("\nThe sum of the numbers between",
+#start,"and",end,"is",sum)
 
 #אותה תכנית:מסכמת מספרים עוקבים בין 2 מספרים-כולל הקצוות
 # start=3
@@ -38,3 +38,8 @@ start,"and",end,"is",sum)
 # sum=((start+end)/2)*kamut
 # print("\nThe sum of the numbers between",
 # start,"and",end,"is",sum)
+
+#print("He" + "l" * 2 + "o" + " Python " + str(7.2 / 2) + "." + str(3))
+numbers = "123456789"
+
+print(numbers[-1:-10])

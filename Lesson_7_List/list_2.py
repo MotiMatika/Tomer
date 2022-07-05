@@ -295,3 +295,14 @@
 #     if val<0:
 #         break
 
+#התכנית מחשבת ממוצע ציונים בהינתן לה רשימה של ציונים
+
+# sum_grades=0
+# count=0
+# grades = [40,50,60,70,80]
+# for grade in grades:
+#     sum_grades=sum_grades+grade
+#     count=count+1
+# print(sum_grades)
+# print(count)
+# print("average= ",sum_grades/count)
