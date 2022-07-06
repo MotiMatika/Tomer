@@ -127,24 +127,24 @@
 #ארבע פונקציות שכל אחת מייצגת פעולה חשבונית בין שני מספרים
 #פונקציית מיין שמאגדת את כל 4 הפונקציות
 
-def plus(a,b):
-    sum = a+b
-    return sum
+# def plus(a,b):
+#     sum = a+b
+#     return sum
 
 
-def minus(a,b):
-    difference = a-b
-    return difference
+# def minus(a,b):
+#     difference = a-b
+#     return difference
 
 
-def multi(a,b):
-    multi = a*b
-    return multi
+# def multi(a,b):
+#     multi = a*b
+#     return multi
 
 
-def divide(a,b):
-    divide = a/b
-    return divide
+# def divide(a,b):
+#     divide = a/b
+#     return divide
 
 
 # def main():
