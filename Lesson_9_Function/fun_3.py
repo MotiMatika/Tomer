@@ -221,13 +221,13 @@
 #פונקציה שמדפיסה  ציונים אקראיים כרשימה 
 #ומדפיסה את:
 # רשימת הציונים,את הציון הגבוה,הנמוך והממוצע   
-# import random
+#import random
 
 # list=[]
 # sum=0
 # i=1
 
-# num_test=int(input("\nWhat is the number of tests you have ?: "))
+#num_test=int(input("\nWhat is the number of tests you have ?: "))
 # while i<=num_test:
 #         grade=random.randint(40,100)
 #         sum=sum+grade
@@ -238,25 +238,66 @@
 # print("The highest grade is: ",list.pop(num_test-1))
 # print("The lowest grade is : ",list.pop(0))
 # print("The average of the",num_test,"tests is :",sum/num_test)
+
+
+
+import random
+
+# def highest_grade(list_grades):
+#     list_grades.sort()
+#     length = len(list_grades)
+#     return list_grades.pop(length-1)  
+
+# def lowest_grade(list_grades):  
+#     list_grades.sort()
+#     return list_grades.pop(0)
+
+def total(list_grades):
+    sum = 0
+    for gr in range(0,len(list_grades)):
+        sum = sum + list_grades[gr]
+        return sum
+print(total(20))    
+    
+# def main():
+
+#     num_test=int(input("\nWhat is the number of tests you have ?: "))
+    
+#     list_of_grades=[]
+#     i = 1
+    
+#     while i<=num_test:
+#         grade=random.randint(40,100)  
+#         list_of_grades.append(grade)
+#         i+=1
+#     length = len(list_of_grades)    
+#     print("The grades are: ",list_of_grades)
+#     print("The highest grade is: ",highest_grade(list_of_grades))
+#     print("The lowest grade is : ",lowest_grade(list_of_grades))
+#     print("The average of the",length,"tests is :",(total(list_of_grades))/length)
+
+    
+# if __name__ == "__main__":
+#     main()
+
+
+
    
 #איך הופכים את הקוד לפונקציות קטנות ומשלבים אותן בפונקציית מיין
+#לשפר את הקוד לאפשר לו לקרוא מקובץ אקסל ציונים ולבצע ממוצע
 
 
 
 #def list_of_grades():
 
-# # def main():
 
-    
-# # if __name__ == "__main__":
-# #     main()
 
 
 #sidra hehbonit
 #סכום איברים סמוכים
 
-A1=int(input("A1="))
-d=int(input("d="))
-Sn=int(input("Sn="))
-n=(Sn-2*A1+d)/(2*d)
-print(n,n+1)
+# A1=int(input("A1="))
+# d=int(input("d="))
+# Sn=int(input("Sn="))
+# n=(Sn-2*A1+d)/(2*d)
+# print(n,n+1)
