@@ -221,23 +221,23 @@ def divide(a,b):
 #פונקציה שמדפיסה  ציונים אקראיים כרשימה 
 #ומדפיסה את:
 # רשימת הציונים,את הציון הגבוה,הנמוך והממוצע   
-import random
+# import random
 
-list=[]
-sum=0
-i=1
+# list=[]
+# sum=0
+# i=1
 
-num_test=int(input("\nWhat is the number of tests you have ?: "))
-while i<=num_test:
-        grade=random.randint(40,100)
-        sum=sum+grade
-        list.append(grade)
-        list.sort()
-        i+=1
-print("The grades are: ",list)
-print("The highest grade is: ",list.pop(num_test-1))
-print("The lowest grade is : ",list.pop(0))
-print("The average of the",num_test,"tests is :",sum/num_test)
+# num_test=int(input("\nWhat is the number of tests you have ?: "))
+# while i<=num_test:
+#         grade=random.randint(40,100)
+#         sum=sum+grade
+#         list.append(grade)
+#         list.sort()
+#         i+=1
+# print("The grades are: ",list)
+# print("The highest grade is: ",list.pop(num_test-1))
+# print("The lowest grade is : ",list.pop(0))
+# print("The average of the",num_test,"tests is :",sum/num_test)
    
 #איך הופכים את הקוד לפונקציות קטנות ומשלבים אותן בפונקציית מיין
 
@@ -252,4 +252,11 @@ print("The average of the",num_test,"tests is :",sum/num_test)
 # #     main()
 
 
+#sidra hehbonit
+#סכום איברים סמוכים
 
+A1=int(input("A1="))
+d=int(input("d="))
+Sn=int(input("Sn="))
+n=(Sn-2*A1+d)/(2*d)
+print(n,n+1)
