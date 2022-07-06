@@ -257,7 +257,7 @@ def total(list_grades):
     for gr in range(0,len(list_grades)):
         sum = sum + list_grades[gr]
         return sum
-print(total(20))    
+  
     
 # def main():
 
