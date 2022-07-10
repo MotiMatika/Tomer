@@ -67,7 +67,7 @@ print(x+y)
 
 # out_of_three(a,b,c)
 
-#פונקציה שמקבלת מחרוזת ומזהה את המילה הארוע=כה ביותר
+#פונקציה שמקבלת מחרוזת ומזהה את המילה הארוכה ביותר
 # def lon_word(text):
 #     num_of_words = text.split()
 #     print(num_of_words)
