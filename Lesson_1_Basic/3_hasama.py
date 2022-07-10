@@ -79,7 +79,14 @@
 # print(a,b)
 
 
+# x=9%2
+# print(x)
 
+# x=8%3
+# print(x)
+
+# x=4%2
+# print(x)
 
 
     
