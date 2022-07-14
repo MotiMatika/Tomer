@@ -293,11 +293,4 @@ def total(list_grades):
 
 
 
-#sidra hehbonit
-#סכום איברים סמוכים
 
-# A1=int(input("A1="))
-# d=int(input("d="))
-# Sn=int(input("Sn="))
-# n=(Sn-2*A1+d)/(2*d)
-# print(n,n+1)
