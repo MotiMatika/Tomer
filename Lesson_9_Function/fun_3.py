@@ -241,6 +241,7 @@
 
 
 
+from binascii import b2a_qp
 import random
 
 # def highest_grade(list_grades):
@@ -252,11 +253,11 @@ import random
 #     list_grades.sort()
 #     return list_grades.pop(0)
 
-def total(list_grades):
-    sum = 0
-    for gr in range(0,len(list_grades)):
-        sum = sum + list_grades[gr]
-        return sum
+# def total(list_grades):
+#     sum = 0
+#     for gr in range(0,len(list_grades)):
+#         sum = sum + list_grades[gr]
+#         return sum
   
     
 # def main():
@@ -289,6 +290,60 @@ def total(list_grades):
 
 
 #def list_of_grades():
+
+
+
+
+
+
+
+
+import turtle               # allows us to use the turtles library
+tw = turtle.Screen()        # creates a graphics window 
+ella = turtle.Turtle()      # create a turtle named ella 
+ella.color("green")           
+ella.pensize(10) 
+ella.fd(100)
+ella.rt(90)
+ella.fd(100)
+ella.rt(90)
+ella.fd(100)
+ella.rt(90)
+ella.fd(100)
+ella.rt(90)
+
+ella.setpos(0,90)
+ella.fd(100)
+ella.rt(90)
+ella.fd(100)
+ella.rt(90)
+ella.fd(100)
+ella.rt(90)
+ella.fd(100)
+ella.rt(90)
+
+
+#ella.setpos(20,30)
+#ella.right(175)  
+turtle.mainloop()           # prevent the window from closing 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
