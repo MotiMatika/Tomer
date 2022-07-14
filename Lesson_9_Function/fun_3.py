@@ -298,54 +298,79 @@ import random
 
 
 
+# import turtle               # allows us to use the turtles library
+# tw = turtle.Screen()        # creates a graphics window 
+# ella = turtle.Turtle()      # create a turtle named ella 
+# ella.color("green")           
+# ella.pensize(10) 
+# ella.fd(100)
+# ella.rt(90)
+# ella.fd(100)
+# ella.rt(90)
+# ella.fd(100)
+# ella.rt(90)
+# ella.fd(100)
+  
+# turtle.mainloop()           # prevent the window from closing 
+
+
+
+# import turtle               # allows us to use the turtles library
+# tw = turtle.Screen()        # creates a graphics window 
+# ella = turtle.Turtle()      # create a turtle named ella 
+# ella.color("green")
+# ella.pensize(4)
+# ella.shape("turtle")
+# ella.speed(1)
+# ella.fd(150)
+# ella.rt(90)
+# ella.fd(100)
+# ella.rt(90)
+# ella.fd(150)
+# ella.rt(90)
+# ella.fd(100)
+  
+# turtle.mainloop()           # prevent the window from closing 
+
+
+
+
+
+# import turtle               # allows us to use the turtles library
+# tw = turtle.Screen()        # creates a graphics window 
+# ella = turtle.Turtle()      # create a turtle named ella 
+# ella.color("green")
+# ella.pensize(4)
+# ella.shape("turtle")
+# ella.speed(1)
+# ella.fd(150)
+# ella.rt(120)
+# ella.fd(150)
+# ella.rt(120)
+# ella.fd(150)
+
+# turtle.mainloop()
+
+
 import turtle               # allows us to use the turtles library
 tw = turtle.Screen()        # creates a graphics window 
 ella = turtle.Turtle()      # create a turtle named ella 
-ella.color("green")           
-ella.pensize(10) 
+ella.color("green")
+ella.pensize(4)
+ella.shape("turtle")
+ella.speed(1)
 ella.fd(100)
-ella.rt(90)
+ella.rt(108)
 ella.fd(100)
-ella.rt(90)
+ella.rt(108)
 ella.fd(100)
-ella.rt(90)
+ella.rt(108)
 ella.fd(100)
-ella.rt(90)
-
-ella.setpos(0,90)
+ella.rt(108)
 ella.fd(100)
-ella.rt(90)
-ella.fd(100)
-ella.rt(90)
-ella.fd(100)
-ella.rt(90)
-ella.fd(100)
-ella.rt(90)
-
-
-#ella.setpos(20,30)
-#ella.right(175)  
-turtle.mainloop()           # prevent the window from closing 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#ella.rt(54)
+# ella.rt(54)
+# ella.fd(150)
+turtle.mainloop()
 
 
