@@ -39,7 +39,12 @@
 # print("\nThe sum of the numbers between",
 # start,"and",end,"is",sum)
 
-#print("He" + "l" * 2 + "o" + " Python " + str(7.2 / 2) + "." + str(3))
-numbers = "123456789"
-
-print(numbers[-1:-10])
+def a_b(name):
+    name=1
+    return(name)
+# def c_d():
+#     print("c")
+# def e_f():
+#     print("e")
+    
+print(a_b("moti"))
