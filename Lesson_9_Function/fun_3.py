@@ -241,8 +241,10 @@
 
 
 
-from binascii import b2a_qp
-import random
+# from binascii import b2a_qp
+# import random
+# from re import X
+# from tkinter import Y
 
 # def highest_grade(list_grades):
 #     list_grades.sort()
@@ -293,9 +295,17 @@ import random
 
 
 
-
-
-
+def rishon(a,b):
+    x=a+b
+    return x
+def sheni(a,b):
+    y=a-b
+    return y
+def peulot():
+    sum=rishon(1,2)
+    diffrence=sheni(1,2)
+    return sum,diffrence
+print(peulot())
 
 
 
