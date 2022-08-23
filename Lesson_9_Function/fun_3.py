@@ -294,18 +294,20 @@
 #def list_of_grades():
 
 
-
-def rishon(a,b):
-    x=a+b
-    return x
 def sheni(a,b):
     y=a-b
     return y
-def peulot():
-    sum=rishon(1,2)
-    diffrence=sheni(1,2)
+def rishon(a,b):
+    x=a+b
+    t=sheni(a,b)
+    return x,t
+    
+
+def peulot(a,b):
+    sum=rishon(a,b)
+    diffrence=sheni(a,b)
     return sum,diffrence
-print(peulot())
+print(peulot(1,2))
 
 
 
